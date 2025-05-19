@@ -30,7 +30,7 @@
 &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
 &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
 &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &kb LGUI    &trans      &trans      &trans      &trans      &trans      &trans      &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &kp LGUI    &trans      &trans      &trans      &trans      &trans      &trans      &trans
                                                 &trans      &trans      &kp LCTRL   &trans      &trans      &trans      &trans      &trans
             >;
         };
