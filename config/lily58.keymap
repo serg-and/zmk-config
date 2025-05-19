@@ -28,6 +28,8 @@
 &kp LSHFT   &kp Z       &kp X       &kp C           &kp V       &kp B       &kp CAPS    &kp CAPS        &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
                                     &mo FUNCTION    &kp LALT    &kp SPACE   &kp LGUI    &mo FUNCTION    &mo LOWER   &kp BSPC    &mo GAME
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         windows_layer {
@@ -39,6 +41,8 @@
 &trans      &trans      &trans      &trans      &trans      &trans      &kp LGUI    &trans      &trans      &trans      &trans      &trans      &trans      &trans
                                     &trans      &trans      &trans      &kp LCTRL   &trans      &trans      &trans      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         game_layer {
@@ -50,6 +54,8 @@
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp LEFT    &kp DOWN    &kp RIGHT
                                     &trans      &kp LALT    &kp SPACE   &kp LCTRL   &trans      &trans      &trans      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -61,6 +67,8 @@
 &trans      &trans      &trans      &kp MINUS   &kp PLUS    &trans      &trans      &trans      &kp BACKSLASH   &kp PIPE    &kp LT      &kp GT      &kp SLASH   &trans
                                     &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         function_layer {
@@ -72,6 +80,8 @@
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans          &kp PG_UP       &kp PG_UP   &trans      &trans
                                     &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
